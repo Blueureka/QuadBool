@@ -1,0 +1,98 @@
+A polynomial describing a quadric is valid if it can be represented
+as a vector of its coefficients:
+
+   In homogeneous form:
+   [x^2 xy xz xw y^2 yz yw z^2 zw w^2]
+
+   In classical form:
+   [x^2 xy xz x y^2 yz y z^2 z 1]
+
+To parse such a polynomial for any of the above formats, we need
+to identify each monomial and associate it to an indice inside
+the vector.
+
+Let's consider a code of the form "XYZW", where each digit takes
+as a value the power of each variable. For instance:
+
+   x*y	   is encoded  1100
+   x^2	   is encoded  2000
+   z*w	   is encoded  0011
+   y	   is encoded  0100
+
+Concretly, each "digit" is stored inside an array of char.
+
+
+I. Homogeneisation
+
+To simplify the calculus, we first homogenise the 4 special cases:
+
+   1000	    into  1001	  "x" becomes "x*w"
+   0100	    into  0101	  "y" becomes "y*w"
+   0010	    into  0011	  "z" becomes "z*w"
+   0000	    into  0002	  "c" becomes "c*w^2", where c is an integer 
+							     constant.
+
+Note that homogenising consists in adding the missing quantity to
+obtain a sum of two.
+
+II. Checking
+
+A monomial is valid iff the word XYZW verifies: X+Y+Z+W=2
+Any other case is invalid, and an error is reported just before 
+hashing the monomial.
+
+
+III. Hashing
+
+The hashing is made of two steps. The first one consists in
+calculating a key "K" from the encoded word XYZW. The second one
+uses an association table that links each possible (unique) value of
+"K" to its corresponding indice inside the vector.
+
+The key is calculated as follow:
+
+    K = W + 2*Z + 4*Y + 8*X
+
+
+Here are the values of "K" calculated for each valid case of the
+word XYZW:
+
+
+   X Y Z W	Vector indice	K
+----------------------------------
+(VALID CASES ONLY)
+0| 2 0 0 0		0	16
+1| 0 2 0 0		4	 8
+2| 0 0 2 0		7	 4
+3| 0 0 0 2		9	 2
+4| 1 0 0 1		3	 9
+5| 1 1 0 0		1	12 
+6| 1 0 1 0		2	10
+7| 0 1 0 1		6	 5
+8| 0 1 1 0		5	 6
+9| 0 0 1 1		8	 3
+
+
+Deduced hash table: 
+('-' means 'no image for the corresponding value of K'):
+
+K	|  Vector indice
+------------------------
+0	|	-
+1	|	-
+2	|	9
+3	|	8
+4	|	7
+5	|	6
+6	|	5
+7	|	-
+8	|	4
+9	|	3
+10	|	2
+11	|	-
+12	|	1
+13	|	-
+14	|	-
+15	|	-
+16	|	0
+

@@ -1,0 +1,158 @@
+{
+  "两个一样大的sphere": {
+    "operation": "UNION",
+    "bodys": [
+      {
+        "type": "sphere",
+        "x": 0.5,
+        "y": 0,
+        "z": 0,
+        "radius": 1
+      },
+      {
+        "type": "sphere",
+        "x": -0.5,
+        "y": 0,
+        "z": 0,
+        "radius": 1
+      }
+    ]
+  },
+  "左边sphere大右边sphere小": {
+    "operation": "UNION",
+    "bodys": [
+      {
+        "type": "sphere",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 2
+      },
+      {
+        "type": "sphere",
+        "x": 2,
+        "y": 0,
+        "z": 0,
+        "radius": 0.5
+      }
+    ]
+  },
+  "大spher和小cylinder": {
+    "operation": "UNION",
+    "bodys": [
+      {
+        "type": "sphere",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 1
+      },
+      {
+        "type": "cylinder",
+        "x": 0,
+        "y": 0,
+        "z": -2,
+        "heightZ": 4,
+        "radius": 0.5
+      }
+    ]
+  },
+  "cube和sphere": {
+    "operation": "UNION",
+    "bodys": [
+      {
+        "type": "cube",
+        "minX": -1,
+        "minY": -1,
+        "minZ": -1,
+        "maxX": 1,
+        "maxY": 1,
+        "maxZ": 1
+      },
+      {
+        "type": "sphere",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 1.25
+      }
+    ]
+  },
+  "cube和小cylinder": {
+    "operation": "UNION",
+    "bodys": [
+      {
+        "type": "cube",
+        "minX": -1,
+        "minY": -1,
+        "minZ": -1,
+        "maxX": 1,
+        "maxY": 1,
+        "maxZ": 1
+      },
+      {
+        "type": "cylinder",
+        "x": 0,
+        "y": 0,
+        "z": -2,
+        "heightZ": 4,
+        "radius": 0.5
+      }
+    ]
+  },
+  "cube和中cylinder": {
+    "operation": "UNION",
+    "bodys": [
+      {
+        "type": "cube",
+        "minX": -1,
+        "minY": -1,
+        "minZ": -1,
+        "maxX": 1,
+        "maxY": 1,
+        "maxZ": 1
+      },
+      {
+        "type": "cylinder",
+        "x": 0,
+        "y": 0,
+        "z": -2,
+        "heightZ": 4,
+        "radius": 1
+      }
+    ]
+  },
+  "四个一样大的sphere": {
+    "operation": "INTERSECTION",
+    "bodys": [
+      {
+        "type": "sphere",
+        "x": 0.5,
+        "y": 0,
+        "z": 0,
+        "radius": 1
+      },
+      {
+        "type": "sphere",
+        "x": -0.5,
+        "y": 0,
+        "z": 0,
+        "radius": 1
+      },
+      {
+        "type": "sphere",
+        "x": 0,
+        "y": 0.5,
+        "z": 0,
+        "radius": 1
+      },
+      {
+        "type": "sphere",
+        "x": 0,
+        "y": -0.5,
+        "z": 0,
+        "radius": 1
+      }
+    ]
+  }
+}

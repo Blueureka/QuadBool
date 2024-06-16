@@ -1,0 +1,382 @@
+# (1) (c) smooth quartic :: (r) empty
+[0 6 0 0 5 0 0 2 6 -1]
+[3 0 0 0 1 0 0 -1 0 11]
+# (2) (c) smooth quartic :: (r) two real affinely finite components ** degree 1
+[1 0 0 0 1 0 0 -1 0 -1]
+[0 1 0 0 0 0 0 0 -2 0]
+# (3) (c) smooth quartic :: (r) two real affinely finite components ** degree 2
+[0 6 0 0 5 0 0 2 6 -1]
+[3 0 0 0 1 0 0 -1 0 -1]
+# (4) (c) smooth quartic :: (r) one real affinely finite component ** degree 1
+[1 0 0 0 1 0 0 0 2 0]
+[1 0 0 0 0 0 0 1 1 -1]
+# (5) (c) smooth quartic :: (r) one real affinely finite component ** degree 2
+[1 -4 0 0 3 0 0 1 3 -1]
+[1 3 0 0 -1 0 0 0 1 0]
+# (6) (c) smooth quartic :: (r) two real affinely infinite components ** degree 1
+[0 1 0 0 0 0 0 0 1 0]
+[1 0 0 0 -1 0 0 1 2 -1]
+# (7) (c) smooth quartic :: (r) two real affinely infinite components ** degree 2
+[1 0 0 0 -2 0 0 0 4 0]
+[0 1 0 0 0 0 0 1 2 -1]
+# (8) (c) nodal quartic :: (r) one point ** degree 1
+[0 0 0 0 1 0 0 1 0 1]
+[0 1 0 0 0 0 0 0 0 1]
+# (9) (c) nodal quartic :: (r) nodal quartic, same side ** degree 1
+[0 0 0 0 1 0 0 1 0 -1]
+[0 1 0 0 0 0 0 0 0 1]
+# (10) (c) nodal quartic :: (r) nodal quartic, same side ** degree 2
+[0 0 0 0 1 0 0 1 0 -3]
+[0 1 0 0 0 0 0 0 0 1]
+# (11) (c) nodal quartic :: (r) nodal quartic, isolated sing. ** degree 1
+[0 0 0 0 1 0 0 -1 0 -1]
+[0 1 0 0 0 0 0 0 0 1]
+# (12) (c) nodal quartic :: (r) nodal quartic, isolated sing. ** degree 2
+[0 0 0 0 1 0 0 1 0 -3]
+[0 0 0 1 1 0 0 0 1 0]
+# (13) (c) nodal quartic :: (r) nodal quartic, opposite sides ** degree 1
+[0 0 0 0 1 0 0 0 1 0]
+[0 1 0 0 0 0 0 1 0 -1]
+# (14) (c) nodal quartic :: (r) nodal quartic, opposite sides ** degree 2
+[0 0 0 0 1 0 0 1 0 -3]
+[0 1 0 0 0 0 0 0 1 0]
+# (15) (c) cuspidal quartic :: (r) cuspidal quartic ** degree 1
+[0 0 0 0 0 1 0 0 0 1]
+[0 0 1 0 1 0 0 0 0 0]
+# (16) (c) cubic and secant line :: (r) cubic and secant line ** degree 1
+[0 0 0 0 1 0 0 0 1 0]
+[0 1 0 0 0 0 0 0 0 1]
+# (17) (c) cubic and secant line :: (r) cubic and secant line ** degree 1 var
+[0 0 1 0 0 0 1 0 0 0]
+[1 0 0 1 0 2 0 0 0 0]
+# (18) (c) cubic and secant line :: (r) cubic & non-secant line ** degree 1
+
+[0 0 0 1 0 1 0 0 0 0]
+
+
+[0 0 1 0 0 0 -1 0 1 0]
+
+# (19) (c) cubic and tangent line :: (r) cubic and tangent line ** degree 1
+
+
+[0 0 0 0 0 0 1 1 0 0]
+
+[0 0 0 1 0 1 0 0 0 0]
+
+# (20) (c) two secant conics :: (r) empty
+
+
+
+
+[0 0 0 0 0 0 0 1 0 -1]
+
+[1 0 0 0 1 0 0 0 0 1]
+
+
+# (21) (c) two secant conics :: (r) empty var
+
+[0 0 0 0 0 0 0 1 0 1]
+
+[1 0 0 0 1 0 0 0 0 -1]
+
+
+# (22) (c) two secant conics :: (r) empty var
+[0 0 0 0 0 0 0 1 2 -1]
+[1 0 0 0 1 0 0 0 -1 1]
+# (23) (c) two secant conics :: (r) two points ** degree 1
+[0 0 0 0 0 0 0 1 0 1]
+[1 0 0 0 -1 0 0 0 0 1]
+# (24) (c) two secant conics :: (r) two points ** degree 2
+[0 0 0 0 0 0 0 1 0 1]
+[1 0 0 0 -2 0 0 0 0 1]
+# (25) (c) two secant conics :: (r) one conic ** degree 1
+[0 0 0 0 0 0 0 0 1 0]
+[1 0 0 0 1 0 0 1 0 -1]
+# (26) (c) two secant conics :: (r) one conic ** degree 2
+[1 0 0 -4 0 0 0 0 0 3]
+[1 0 0 0 1 0 0 1 0 -4]
+# (27) (c) two secant conics :: (r) one conic ** degree 4
+[1 0 0 -4 0 0 0 0 0 -3]
+[1 0 0 0 1 0 0 1 0 -1]
+# (28) (c) two secant conics :: (r) two non-secant conics ** degree 1
+[1 0 0 0 0 0 0 0 0 -1]
+[0 0 0 0 1 0 0 1 0 -1]
+# (29) (c) two secant conics :: (r) two non-secant conics ** degree 1 var
+[1 0 0 1 0 0 0 0 0 -2]
+[0 0 0 3 1 0 0 1 0 -4]
+# (30) (c) two secant conics :: (r) two non-secant conics ** degree 2
+[1 0 0 0 0 0 0 0 0 -1]
+[0 0 0 0 1 0 0 1 0 -3]
+# (31) (c) two secant conics :: (r) two non-secant conics ** degree 2 var
+[1 0 0 0 0 0 0 0 0 -3]
+[0 0 0 0 1 0 0 1 0 -3]
+# (32) (c) two secant conics :: (r) two non-secant conics ** degree 2 var
+[1 0 0 1 0 0 0 0 0 -2]
+[0 0 0 -1 1 0 0 1 0 -6]
+# (33) (c) two secant conics :: (r) two non-secant conics ** degree 2 var
+[1 0 0 1 0 0 0 0 0 -1]
+[0 0 0 -1 1 0 0 1 0 -3]
+# (34) (c) two secant conics :: (r) two non-secant conics ** degree 4
+[1 0 0 0 0 0 0 0 0 -33]
+[0 0 0 0 1 0 0 1 0 -3]
+# (35) (c) two secant conics :: (r) two non-secant conics ** degree 4 var
+[1 0 0 -1 0 0 0 0 0 -1] 
+[0 0 0 -1 1 0 0 1 0 -11] 
+# (36) (c) two secant conics :: (r) two secant conics, same side ** degree 1
+[1 0 0 0 -1 0 0 0 0 0]
+[0 0 0 0 1 0 0 2 0 -1]
+# (37) (c) two secant conics :: (r) two secant conics, same side ** degree 2
+[1 0 0 0 -1 0 0 0 0 0]
+[0 0 0 0 1 0 0 1 0 -3]
+# (38) (c) two secant conics :: (r) two secant conics, same side ** degree 2 var
+[1 0 0 0 -3 0 0 0 0 0]
+[0 0 0 0 2 0 0 2 0 -3]
+# (39) (c) two secant conics :: (r) two secant conics, same side ** degree 4
+[1 0 0 0 -33 0 0 0 0 0]
+[0 0 0 0 1 0 0 1 0 -3]
+# (40) (c) two sec conics :: (r) two sec conics, opposite sides ** degree 1
+[0 0 0 0 0 0 0 1 0 -1]
+[1 0 0 0 -2 0 0 0 -1 0]
+# (41) (c) two sec conics :: (r) two sec conics, opp. sides ** degree 2
+[0 0 0 0 0 0 0 0 1 0]
+[1 0 0 0 -3 0 0 1 0 -11]
+# (42) (c) two secant conics :: (r) two secant conics, opposite sides ** degree 2 var
+[0 0 0 0 0 0 0 1 0 -2]
+[1 0 0 0 -3 0 0 0 -1 0]
+# (43) (c) two secant conics :: (r) two secant conics, opposite sides ** degree 4
+[0 0 0 0 0 0 0 1 -4 -3]
+[1 0 0 0 -3 0 0 1 0 -11]
+# (44) (c) two tangent conics :: (r) point ** degree 1
+[1 0 0 0 0 0 0 0 0 1]
+[0 1 0 0 0 0 0 1 0 0]
+# (45) (c) two tangent conics :: (r) two tangent conics ** degree 1
+[1 0 0 0 0 0 0 0 0 -1]
+[0 1 0 0 0 0 0 1 0 0]
+# (46) (c) two tangent conics :: (r) two tangent conics ** degree 2
+[1 0 0 0 0 0 0 0 0 -2]
+[0 1 0 0 0 0 0 1 0 0]
+# (47) (c) double conic :: (r) empty
+[0 0 0 0 0 0 0 0 0 1]
+[1 0 0 0 1 0 0 1 0 0]
+# (48) (c) double conic :: (r) double conic ** degree 1
+[1 0 0 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 1 0 -1]
+# (49) (c) double conic :: (r) double conic ** degree 2
+[1 0 0 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 1 0 -3]
+# (50) (c) conic & two lines (no cross) :: (r) point ** degree 1
+[0 0 0 0 1 0 0 1 0 1]
+[0 1 0 0 0 0 0 0 0 0]
+# (51) (c) conic & two lines (no cross) :: (r) conic and point ** degree 1
+[0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 1 0 -1]
+# (52) (c) conic & two lines (no cross) :: (r) conic and point ** degree 2
+[0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 1 0 -3]
+# (53) (c) conic & two lines (no cross) :: (r) conic & two lines ** degree 1
+[0 1 0 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 1 0 -1]
+# (54) (c) conic & two lines (no cross) :: (r) conic & two lines ** degree 2
+[0 1 0 0 0 0 0 0 0 0]
+[0 0 0 0 2 0 0 1 0 -3]
+# (55) (c) conic & two lines (no cross) :: (r) conic & 2 lines ** deg. 2 var
+[0 1 0 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 1 0 -3]
+# (56) (c) conic and two lines (crossing) :: (r) conic ** degree 1
+[0 0 0 0 0 1 0 0 0 0]
+[0 0 1 0 1 0 0 0 0 1]
+# (57) (c) conic and two lines (crossing) :: (r) conic & 2 lines ** degree 1
+[0 0 0 0 0 1 0 0 0 0]
+[0 0 1 0 1 0 0 0 0 -1]
+# (58) (c) conic and two lines (crossing) :: (r) conic & 2 lines ** degree 2
+[0 0 0 0 0 1 0 0 0 0]
+[0 0 1 0 1 0 0 0 0 -2]
+# (59) (c) four skew lines :: (r) empty
+[1 0 0 0 1 0 0 0 0 0]
+[0 0 0 0 0 0 0 1 0 1]
+# (60) (c) four skew lines :: (r) two points ** degree 1
+[1 0 0 0 1 0 0 0 -2 0]
+[0 2 0 0 0 0 0 1 0 1]
+# (61) (c) four skew lines :: (r) two points ** degree 2
+[1 0 0 0 3 0 0 0 -2 0]
+[1 -6 0 0 -3 0 0 -1 0 -4]
+# (62) (c) four skew lines :: (r) two points ** degree 4
+[1 0 0 0 2 0 0 0 -2 0]
+[1 -4 0 0 -2 0 0 -1 0 -3]
+# (63) (c) four skew lines :: (r) two lines ** degree 1
+[1 0 0 0 -25 0 0 0 -2 0]
+[3 50 0 0 75 0 0 -1 0 16]
+# (64) (c) four skew lines :: (r) two lines ** degree 2
+[1 0 0 0 -4 0 0 0 -2 0]
+[1 8 0 0 4 0 0 -1 0 3]
+# (65) (c) four skew lines :: (r) two lines ** degree 4
+[1 0 0 0 -3 0 0 0 -2 0]
+[1 6 0 0 3 0 0 -1 0 2]
+# (66) (c) four skew lines :: (r) four lines ** degree 1
+[1 0 0 0 -9 0 0 0 -2 0]
+[5 18 0 0 45 0 0 -1 0 -16]
+# (67) (c) four skew lines :: (r) four lines ** degree 2
+[1 0 0 0 -5 0 0 0 -2 0]
+[3 10 0 0 15 0 0 -1 0 -4]
+# (68) (c) four skew lines :: (r) four lines ** degree 2 var
+[1 0 0 0 -16 0 0 0 -2 0]
+[5 32 0 0 80 0 0 -1 0 -9]
+# (69) (c) four skew lines :: (r) four lines ** degree 2 var
+[1 0 0 0 -1 0 0 0 -2 0]
+[3 2 0 0 3 0 0 -1 0 -8]
+# (70) (c) four skew lines :: (r) four lines ** degree 2 var
+[1 0 0 0 -4 0 0 0 -2 0]
+[6 8 0 0 24 0 0 -1 0 -32]
+# (71) (c) four skew lines :: (r) four lines ** degree 4
+[1 0 0 0 -20 0 0 0 -2 0]
+[6 40 0 0 120 0 0 -1 0 -16]
+# (72) (c) four skew lines :: (r) four lines ** degree 4 var
+[1 0 0 0 -2 0 0 0 -2 0]
+[2 4 0 0 4 0 0 -1 0 -2]
+# (73) (c) four skew lines :: (r) four lines ** degree 4 var
+[1 0 0 0 -1 0 0 0 -2 0]
+[2 2 0 0 2 0 0 -1 0 -3]
+# (74) (c) four skew lines :: (r) four lines ** degree 8
+[1 0 0 0 -3 0 0 0 -2 0]
+[3 6 0 0 9 0 0 -1 0 -6]
+# (75) (c) two skew lines & double line :: (r) double line ** degree 1
+[0 0 0 0 1 0 0 0 0 1]
+[0 1 0 0 0 0 0 0 1 0]
+# (76) (c) two lines & double line :: (r) two lines & db line ** degree 1
+[0 0 0 0 1 0 0 0 0 -1]
+[0 1 0 0 0 0 0 0 -1 0]
+# (77) (c) two lines & double line :: (r) two lines & db line ** degree 2
+[0 0 0 0 1 0 0 0 0 -2]
+[0 1 0 0 0 0 0 0 -1 0]
+# (78) (c) two double lines :: (r) point ** degree 1
+[0 0 0 0 0 0 0 0 0 1]
+[1 0 0 0 1 0 0 0 1 0]
+# (79) (c) two double lines :: (r) two double lines ** degree 1
+[0 0 0 0 0 0 0 0 0 1]
+[1 0 0 0 -1 0 0 0 1 0]
+# (80) (c) two double lines :: (r) two double lines ** degree 2
+[0 0 0 0 0 0 0 0 0 1]
+[1 0 0 0 -2 0 0 0 1 0]
+# (81) (c) smooth quadric :: (r) empty
+[1 0 0 0 1 0 0 1 0 1]
+[0 0 0 0 0 0 0 0 0 0]
+# (82) (c) smooth quadric :: (r) real smooth quadric ** [2 2]
+[1 0 0 0 1 0 0 -1 0 -1]
+[2 0 0 0 2 0 0 -2 0 -2]
+# (83) (c) smooth quadric :: (r) real smooth quadric ** [3 1]
+[1 0 0 0 1 0 0 1 0 -1]
+[2 0 0 0 2 0 0 2 0 -2]
+# (84) (c) conic and double line :: (r) conic and double line ** degree 1
+[0 0 0 1 0 0 0 0 0 0]
+[0 0 1 0 1 0 0 0 0 0]
+# (85) (c) conic and double line :: (r) conic and db line ** degree 1 var
+[0 0 1 1 1 0 0 0 0 0]
+[0 0 1 0 1 0 0 0 0 0]
+# (86) (c) four concurrent lines :: (r) point ** degree 1
+[1 0 0 0 0 0 0 1 0 0]
+[0 0 0 0 1 0 0 1 0 0]
+# (87) (c) four concurrent lines :: (r) two lines ** degree 1 (S2)
+[0 0 1 0 -1 0 0 0 0 0]
+[-1 0 0 0 0 0 0 1 0 0]
+# (88) (c) four concurrent lines :: (r) two lines ** degree 2 (S2 x S2)
+[0 0 1 0 -1 0 0 0 0 0]
+[-2 0 0 0 -1 0 0 1 0 0]
+# (89) (c) four concurrent lines :: (r) two lines ** degree 3 (S3)
+[0 0 1 0 -1 0 0 0 0 0]
+[0 2 0 0 0 0 0 1 0 0]
+# (90) (c) four concurrent lines :: (r) two lines ** degree 4 (D4)
+[0 0 1 0 -1 0 0 0 0 0]
+[-3 0 0 0 0 0 0 1 0 0]
+# (91) (c) four concurrent lines :: (r) two lines ** degree 12 (S4)
+[0 0 1 0 -1 0 0 0 0 0]
+[-3 -3 0 0 0 0 0 1 0 0]
+# (92) (c) four concurrent lines :: (r) four lines ** degree 1 (Id)
+[0 0 1 0 -1 0 0 0 0 0]
+[4 0 0 0 -5 0 0 1 0 0]
+# (93) (c) four concurrent lines :: (r) four lines ** degree 2 (S2)
+[0 0 1 0 -1 0 0 0 0 0]
+[2 0 0 0 -3 0 0 1 0 0]
+# (94) (c) four concurrent lines :: (r) four lines ** degree 2 (S2) var
+[0 0 1 0 -1 0 0 0 0 0]
+[-4 8 0 0 0 -4 0 1 0 0]
+# (95) (c) four concurrent lines :: (r) four lines ** degree 3 (A3)
+[0 0 1 0 -1 0 0 0 0 0]
+[0 1 0 0 -3 0 0 1 0 0]
+# (96) (c) four concurrent lines :: (r) four lines ** degree 4 (C4)
+[0 0 1 0 -1 0 0 0 0 0]
+[2 0 0 0 -4 0 0 1 0 0]
+# (97) (c) four concurrent lines :: (r) four lines ** degree 4 (V4)
+[0 0 1 0 -1 0 0 0 0 0]
+[4 0 0 0 -10 0 0 1 0 0]
+# (98) (c) four concurrent lines :: (r) four lines ** degree 4 (S2 x S2)
+[0 0 1 0 -1 0 0 0 0 0]
+[2 10 0 0 15 7 0 1 0 0]
+# (99) (c) four concurrent lines :: (r) four lines ** degree 6 (S3)
+[0 0 1 0 -1 0 0 0 0 0]
+[0 1 0 0 -4 0 0 1 0 0]
+# (100) (c) four concurrent lines :: (r) four lines ** degree 8 (D4)
+[0 0 1 0 -1 0 0 0 0 0]
+[2 0 0 0 -5 0 0 1 0 0]
+# (101) (c) four concurrent lines :: (r) four lines ** degree 12 (A4)
+[0 0 1 0 -1 0 0 0 0 0]
+[1 -3 0 0 -7 0 0 1 0 0]
+# (102) (c) four concurrent lines :: (r) four lines ** degree 24 (S4)
+[0 0 1 0 -1 0 0 0 0 0]
+[1 -1 0 0 -4 0 0 1 0 0]
+# (103) (c) two concurrent lines & double line :: (r) double line ** degree 1
+[0 1 0 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 1 0 0]
+# (104) (c) two conc. lines & double line :: (r) 2 lines, db line ** degree 1
+[0 1 0 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 -1 0 0]
+# (105) (c) two conc. lines & double line :: (r) 2 lines, db line ** degree 2
+[0 1 0 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 -2 0 0]
+# (106) (c) line and triple line :: (r) line and triple line ** degree 1
+[0 0 1 0 1 0 0 0 0 0]
+[0 0 0 0 0 1 0 0 0 0]
+# (107) (c) two double lines :: (r) point ** degree 1
+[0 0 0 0 0 0 0 1 0 0]
+[1 0 0 0 1 0 0 0 0 0]
+# (108) (c) two double lines :: (r) two double lines ** degree 1
+[0 0 0 0 0 0 0 1 0 0]
+[1 0 0 0 -1 0 0 0 0 0]
+# (109) (c) two double lines :: (r) two double lines ** degree 2
+[0 0 0 0 0 0 0 1 0 0]
+[1 0 0 0 -2 0 0 0 0 0]
+# (110) (c) quadruple line :: (r) quadruple line ** degree 1
+[0 0 0 0 1 0 0 0 0 0]
+[0 1 0 0 0 0 0 1 0 0]
+# (111) (c) cone :: (r) point ** degree 1
+[1 0 0 0 1 0 0 1 0 0]
+[2 0 0 0 2 0 0 2 0 0]
+# (112) (c) cone :: (r) real cone ** degree 1
+[1 0 0 0 1 0 0 -1 0 0]
+[2 0 0 0 2 0 0 -2 0 0]
+# (113) (c) line and plane :: (r) line and plane ** degree 1
+[0 1 0 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0 0]
+# (114) (c) quadruple line :: (r) quadruple line ** degree 1
+[1 0 0 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0]
+# (115) (c) quadruple line :: (r) quadruple line ** degree 1 var
+[0 1 0 0 0 0 0 0 0 0]
+[1 0 0 0 -1 0 0 0 0 0]
+# (116) (c) plane :: (r) plane ** degree 1
+[0 1 0 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0 0]
+# (117) (c) pair of planes :: (r) line ** degree 1
+[1 0 0 0 1 0 0 0 0 0] 
+[2 0 0 0 2 0 0 0 0 0] 
+# (118) (c) pair of planes :: (r) pair of planes ** degree 1
+[1 0 0 0 -1 0 0 0 0 0]
+[2 0 0 0 -2 0 0 0 0 0]
+# (119) (c) pair of planes :: (r) pair of planes ** degree 2
+[1 0 0 0 -2 0 0 0 0 0]
+[3 0 0 0 -6 0 0 0 0 0]
+# (120) (c) double plane :: (r) double plane ** degree 1
+[1 0 0 0 0 0 0 0 0 0]
+[2 0 0 0 0 0 0 0 0 0]
+# (121) (c) universe :: (r) universe ** degree 1
+[0 0 0 0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0 0 0 0]

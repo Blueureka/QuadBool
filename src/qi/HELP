@@ -1,0 +1,84 @@
+Contents:
+
+I.  Using QI's main intersection method
+II. Using the standalone qi program
+
+
+
+I. Using QI's main intersection method
+
+QI's main intersection method is not part of any C++ class. Its
+prototype is:
+
+
+quad_inter <bigint> intersect(const bigint_matrix &q1, 
+			      const bigint_matrix &q2, 
+			      const char opt_optimize);
+
+Every program that use it must link with:
+
+      libqi
+      libgmp
+
+You may include the following headers:
+
+   	qi/qi_kernel.h	   /** Includes all the necessary top level headers for
+   				calculating an intersection. */
+	qi/qi_io.h	   /** If you plan to interact with the end user
+   				(parsing, rendering) */
+   				
+   	qi/qi.h		   /** If you want to include both of the previous headers */
+   	
+You must use the "QI" namespace, using the following C++ statement:
+	using namespace QI
+
+A minimalistic example is provided: see main_example.cc in the 
+"doc/example" subdirectory.
+This example shows how to use the helper class "QIParser", allowing to declare
+quadrics in string mode, and convert it to a "bigint_matrix".
+
+When you want to use QI inside one of your programs, you have to
+specify some additional compiler flags, of this form:
+
+  -I/usr/include/qi
+  -I<path_to_gmp>/include	(same remark)
+
+  -L<path_to_qi>	        (in case it's not installed in a
+				 directory specified inside ld.so.conf)
+  -L<path_to_gmp>	        (same remark)
+
+  -lqi -lgmp		(mandatory)
+
+
+
+II. Using the standalone qi program
+
+This program is quite straightforward to understand.  Just launch
+the "qi" executable in src/qi, and once in the mini shell, follow the 
+instructions by typing "help".
+
+The program itself can take some arguments, detailed by typing:
+
+    ./qi --help
+
+Instead of launching the mini shell, you can enter your commands in a
+source file, and feed the qi program with it, like this:
+
+    ./qi < mysource
+
+Where "mysource" may contain, for instance:
+
+      xx="x^2-5*x"
+      yy="y*z+8*z-12"
+      intersect xx yy
+
+which are instructions understandable by the standalone "qi" program.
+This feature can be useful when you want to bench or test qi on a
+range of examples.
+
+Indeed, a file named "quadrics.txt" is provided, containing a robust
+set of examples for every case of intersection.
+
+You can test automatically "qi" by using the "rangetest.sh" script,
+which will automatically feed and launch the "qi" program using data
+in "quadrics.txt".

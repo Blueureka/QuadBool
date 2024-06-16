@@ -1,0 +1,4 @@
+#!./qi
+xx=y^2 + z^2 -3*w^2
+yy=x*y + w^2
+intersect xx yy

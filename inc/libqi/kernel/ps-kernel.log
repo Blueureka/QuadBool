@@ -1,0 +1,42 @@
+{"level":"DEBUG","timestamp":"2023-12-25 15:57:58.35044472", "file":"PSGMPartition.cpp:56", "msg":"Create partition 1 with initial pmark2 and current pmark2"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.37329772", "file":"PSGMSession.cpp:464", "msg":"Create partition 1"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.41185072", "file":"PSGMSessionControllerCallback.cpp:16", "msg":"innner PSGMSessionControllerCallback::start."}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.46984572", "file":"PSGMEventManager.cpp:51", "msg":"Register event handler begin, eventType: "}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47074872", "file":"PSGMEventManager.cpp:74", "msg":"Register event handler end"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47100472", "file":"PSGMEventManager.cpp:51", "msg":"Register event handler begin, eventType: "}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47111572", "file":"PSGMEventManager.cpp:74", "msg":"Register event handler end"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47124672", "file":"PSGMEventManager.cpp:51", "msg":"Register event handler begin, eventType: "}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47136272", "file":"PSGMEventManager.cpp:74", "msg":"Register event handler end"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47147472", "file":"PSGMEventManager.cpp:51", "msg":"Register event handler begin, eventType: "}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47160672", "file":"PSGMEventManager.cpp:74", "msg":"Register event handler end"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47170972", "file":"PSGMEventManager.cpp:51", "msg":"Register event handler begin, eventType: "}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47180272", "file":"PSGMEventManager.cpp:74", "msg":"Register event handler end"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47188072", "file":"PSGMEventManager.cpp:51", "msg":"Register event handler begin, eventType: 	"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47196372", "file":"PSGMEventManager.cpp:74", "msg":"Register event handler end"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47203872", "file":"PSGMEventManager.cpp:51", "msg":"Register event handler begin, eventType: 
+"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47221472", "file":"PSGMEventManager.cpp:74", "msg":"Register event handler end"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47239072", "file":"PSGMEventManager.cpp:51", "msg":"Register event handler begin, eventType: "}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47249272", "file":"PSGMEventManager.cpp:74", "msg":"Register event handler end"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47261572", "file":"PSGMEventManager.cpp:51", "msg":"Register event handler begin, eventType: "}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47271472", "file":"PSGMEventManager.cpp:74", "msg":"Register event handler end"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47302672", "file":"PSGMEventManager.cpp:51", "msg":"Register event handler begin, eventType: "}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47315572", "file":"PSGMEventManager.cpp:74", "msg":"Register event handler end"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47328572", "file":"PSGMEventManager.cpp:51", "msg":"Register event handler begin, eventType: "}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47341472", "file":"PSGMEventManager.cpp:74", "msg":"Register event handler end"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47350672", "file":"PSGMEventManager.cpp:51", "msg":"Register event handler begin, eventType: "}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47361472", "file":"PSGMEventManager.cpp:74", "msg":"Register event handler end"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:58.47376472", "file":"PSGMSession.cpp:381", "msg":"Started session 1"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:59.504773807", "file":"PSGMSession.cpp:388", "msg":"Stop session 1"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:59.504842307", "file":"PSGMEventManager.cpp:81", "msg":"Unregister event handler begin"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:59.504870307", "file":"PSGMEventManager.cpp:81", "msg":"Unregister event handler begin"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:59.504889707", "file":"PSGMEventManager.cpp:81", "msg":"Unregister event handler begin"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:59.504899907", "file":"PSGMEventManager.cpp:81", "msg":"Unregister event handler begin"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:59.504915807", "file":"PSGMEventManager.cpp:81", "msg":"Unregister event handler begin"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:59.504926507", "file":"PSGMEventManager.cpp:81", "msg":"Unregister event handler begin"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:59.504934007", "file":"PSGMEventManager.cpp:81", "msg":"Unregister event handler begin"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:59.504950107", "file":"PSGMEventManager.cpp:81", "msg":"Unregister event handler begin"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:59.504958407", "file":"PSGMEventManager.cpp:81", "msg":"Unregister event handler begin"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:59.504968907", "file":"PSGMEventManager.cpp:81", "msg":"Unregister event handler begin"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:59.504977607", "file":"PSGMEventManager.cpp:81", "msg":"Unregister event handler begin"}
+{"level":"INFO","timestamp":"2023-12-25 15:57:59.504985407", "file":"PSGMEventManager.cpp:81", "msg":"Unregister event handler begin"}
